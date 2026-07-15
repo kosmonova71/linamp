@@ -1,0 +1,33 @@
+{
+  "fitness": 94.7,
+  "genome": {
+    "modules": [
+      "warp",
+      "noise"
+    ],
+    "params": {
+      "colour_a": 0.1,
+      "colour_b": 0.2,
+      "colour_c": 0.3,
+      "feedback": 0.8,
+      "mutation_rate": 0.1,
+      "warp_strength": 0.5
+    },
+    "physics": {
+      "energy_decay": 0.05,
+      "gravity": 0.2
+    }
+  },
+  "origin": "Shadowy-Figure_562598",
+  "reputation": {
+    "audio_response": 0.5,
+    "fitness": 94.7,
+    "novelty": 0.1,
+    "runtime_survival": 0.75,
+    "score": 80.0,
+    "stability": 0.75,
+    "status": "LOCAL SPECIES"
+  },
+  "species": "test_species",
+  "species_id": "3ca609f36223d230"
+}

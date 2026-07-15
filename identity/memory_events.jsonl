@@ -1,0 +1,5 @@
+{"ts": 1783913296.8088214, "event_type": "mutation", "data": {"mutation": "add_fractal", "before": 1.0, "after": 1.5, "delta": 0.5}}
+{"ts": 1783913296.8091745, "event_type": "mutation", "data": {"mutation": "add_noise", "before": 1.5, "after": 0.8, "delta": -0.7}}
+{"ts": 1783913296.8097188, "event_type": "dream", "data": {"simulated": 5, "promising_score": 0.6768333333333333}}
+{"ts": 1783913296.8101795, "event_type": "champion", "data": {"score": 2.5, "modules": ["noise", "warp"]}}
+{"ts": 1783913310.0661778, "event_type": "tick", "data": {"age": 1, "season": "birth", "mood": {"energy": 0.5, "curiosity": 0.6, "stability": 0.5, "aggression": 0.2}}}

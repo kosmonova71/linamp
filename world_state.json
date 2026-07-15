@@ -1,0 +1,1858 @@
+{
+  "version": 1,
+  "created": 1784085045.6988943,
+  "updated": 1784088749.3959055,
+  "generation": 83,
+  "best_genomes": [
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7401,
+      "t": 1784085174.3581343
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7401,
+      "t": 1784085174.3581839
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7401,
+      "t": 1784085174.358222
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7401,
+      "t": 1784085174.3582475
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7401,
+      "t": 1784085174.3582704
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7401,
+      "t": 1784085174.3582942
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7371,
+      "t": 1784085174.3638644
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7341000000000001,
+      "t": 1784085174.3610466
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7341000000000001,
+      "t": 1784085174.3610702
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7341000000000001,
+      "t": 1784085174.3611178
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7341000000000001,
+      "t": 1784085174.3611438
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7341000000000001,
+      "t": 1784085174.3611665
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7341000000000001,
+      "t": 1784085174.3611884
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7339572858832586,
+      "t": 1784085174.3610942
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7329879736204603,
+      "t": 1784085174.361237
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7311,
+      "t": 1784085174.369612
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7303856060510793,
+      "t": 1784085174.361215
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7295999999999999,
+      "t": 1784085174.3633242
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7295999999999999,
+      "t": 1784085174.3633509
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7295999999999999,
+      "t": 1784085174.36338
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7295999999999999,
+      "t": 1784085174.3634043
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7295999999999999,
+      "t": 1784085174.363426
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7295999999999999,
+      "t": 1784085174.3634484
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7258568630665663,
+      "t": 1784085174.3696835
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7251000000000001,
+      "t": 1784085174.3735652
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7251,
+      "t": 1784085174.3636122
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7251,
+      "t": 1784085174.3636463
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7251,
+      "t": 1784085174.3637407
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7251,
+      "t": 1784085174.363961
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7251,
+      "t": 1784085174.3640475
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7251,
+      "t": 1784085174.3640742
+    },
+    {
+      "genome": {
+        "turbulence": 0.33,
+        "warp": 0.4,
+        "domain_warp": 0.4,
+        "glow": 0.4,
+        "contrast": 0.5,
+        "vortex": 0.5,
+        "noise_scale": 0.2,
+        "symmetry": 0.4,
+        "feedback": 0.7,
+        "curl": 0.4,
+        "fractal_layers": 0.4,
+        "palette": 0.1,
+        "flow_speed": 0.4,
+        "particle_density": 0.3,
+        "colour_shift": 0.5,
+        "reaction_rate": 0.4
+      },
+      "fitness": 0.7251,
+      "t": 1784085174.3640969
+    }
+  ],
+  "species_tree": {
+    "crystalline": {
+      "id": "crystalline",
+      "specialisation": "crystalline",
+      "parent_ids": [],
+      "born": 1784085045.699036,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "organic": {
+      "id": "organic",
+      "specialisation": "organic",
+      "parent_ids": [],
+      "born": 1784085045.6991909,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "plasma": {
+      "id": "plasma",
+      "specialisation": "plasma",
+      "parent_ids": [],
+      "born": 1784085045.6993284,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "geometric": {
+      "id": "geometric",
+      "specialisation": "geometric",
+      "parent_ids": [],
+      "born": 1784085045.6994305,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "fractal": {
+      "id": "fractal",
+      "specialisation": "fractal",
+      "parent_ids": [],
+      "born": 1784085045.6995323,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "5e5326ee.1+ff07ddd9": {
+      "id": "5e5326ee.1+ff07ddd9",
+      "specialisation": "hybrid:geometric+plasma",
+      "parent_ids": [
+        "geometric",
+        "plasma"
+      ],
+      "born": 1784085045.7000842,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "b223a2ef+4dbaddfd.28": {
+      "id": "b223a2ef+4dbaddfd.28",
+      "specialisation": "hybrid:geometric+crystalline",
+      "parent_ids": [
+        "geometric",
+        "crystalline"
+      ],
+      "born": 1784085188.7272923,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "ea12ef9a+09d470a8": {
+      "id": "ea12ef9a+09d470a8",
+      "specialisation": "hybrid:plasma+crystalline",
+      "parent_ids": [
+        "plasma",
+        "crystalline"
+      ],
+      "born": 1784085299.3506296,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "e3cb0fb7+a175d165": {
+      "id": "e3cb0fb7+a175d165",
+      "specialisation": "hybrid:organic+plasma",
+      "parent_ids": [
+        "organic",
+        "plasma"
+      ],
+      "born": 1784085423.3221333,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "e03fb737.49+d52260e8": {
+      "id": "e03fb737.49+d52260e8",
+      "specialisation": "hybrid:crystalline+fractal",
+      "parent_ids": [
+        "crystalline",
+        "fractal"
+      ],
+      "born": 1784085504.3137493,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "a9c7ea74+fd5e065e": {
+      "id": "a9c7ea74+fd5e065e",
+      "specialisation": "hybrid:organic+geometric",
+      "parent_ids": [
+        "organic",
+        "geometric"
+      ],
+      "born": 1784085514.6251004,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "39bc2da7+9805af97": {
+      "id": "39bc2da7+9805af97",
+      "specialisation": "hybrid:crystalline+organic",
+      "parent_ids": [
+        "crystalline",
+        "organic"
+      ],
+      "born": 1784087445.2078977,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "c6d467ac+c5683e2a": {
+      "id": "c6d467ac+c5683e2a",
+      "specialisation": "hybrid:crystalline+organic",
+      "parent_ids": [
+        "crystalline",
+        "organic"
+      ],
+      "born": 1784088689.5584967,
+      "best_fitness": 0.0,
+      "alive": true
+    },
+    "c8e44f0d+0cf9b1bc": {
+      "id": "c8e44f0d+0cf9b1bc",
+      "specialisation": "hybrid:crystalline+organic",
+      "parent_ids": [
+        "crystalline",
+        "organic"
+      ],
+      "born": 1784088749.3807974,
+      "best_fitness": 0.0,
+      "alive": true
+    }
+  },
+  "gene_stats": {
+    "fitness": {
+      "attempts": 2818,
+      "accepts": 2818
+    }
+  },
+  "operator_stats": {},
+  "successful_operators": [],
+  "failed_operators": [],
+  "music_history": [
+    {
+      "sig": {
+        "bass": 0.9,
+        "mid": 0.5,
+        "treble": 0.3,
+        "beat": 0.6,
+        "energy": 0.6599999999999999,
+        "section": "verse"
+      },
+      "t": 1784085045.7002285
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085045.703031
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085045.7044618
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085045.706216
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085045.7076
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085045.709553
+    },
+    {
+      "sig": {
+        "bass": 0.5,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.4,
+        "energy": 0.38,
+        "section": "verse"
+      },
+      "t": 1784085045.7126775
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.356894
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3584185
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3612998
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3624809
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3643825
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3663354
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3687892
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.370104
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.371392
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3729925
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3740656
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3750594
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3759363
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3770263
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3778834
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3788893
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.379841
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3807821
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3816044
+    },
+    {
+      "sig": {
+        "bass": 0.7,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.5,
+        "energy": 0.48,
+        "section": "verse"
+      },
+      "t": 1784085174.3825228
+    },
+    {
+      "sig": {
+        "bass": 0.9,
+        "mid": 0.5,
+        "treble": 0.3,
+        "beat": 0.6,
+        "energy": 0.6599999999999999,
+        "section": "verse"
+      },
+      "t": 1784085188.7273684
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085188.7292771
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085188.7299337
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085188.730575
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085188.7311165
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085188.7320266
+    },
+    {
+      "sig": {
+        "bass": 0.5,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.4,
+        "energy": 0.38,
+        "section": "verse"
+      },
+      "t": 1784085188.7355676
+    },
+    {
+      "sig": {
+        "bass": 0.9,
+        "mid": 0.5,
+        "treble": 0.3,
+        "beat": 0.6,
+        "energy": 0.6599999999999999,
+        "section": "verse"
+      },
+      "t": 1784085299.350708
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085299.352657
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085299.353389
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085299.3542633
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085299.3551266
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085299.3562622
+    },
+    {
+      "sig": {
+        "bass": 0.5,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.4,
+        "energy": 0.38,
+        "section": "verse"
+      },
+      "t": 1784085299.3585129
+    },
+    {
+      "sig": {
+        "bass": 0.9,
+        "mid": 0.5,
+        "treble": 0.3,
+        "beat": 0.6,
+        "energy": 0.6599999999999999,
+        "section": "verse"
+      },
+      "t": 1784085423.3222256
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085423.3262897
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085423.3271623
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085423.3279285
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085423.3290443
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085423.3301275
+    },
+    {
+      "sig": {
+        "bass": 0.5,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.4,
+        "energy": 0.38,
+        "section": "verse"
+      },
+      "t": 1784085423.3322444
+    },
+    {
+      "sig": {
+        "bass": 0.9,
+        "mid": 0.5,
+        "treble": 0.3,
+        "beat": 0.6,
+        "energy": 0.6599999999999999,
+        "section": "verse"
+      },
+      "t": 1784085504.3141751
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085504.3162212
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085504.3169184
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085504.3176541
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085504.318339
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085504.31935
+    },
+    {
+      "sig": {
+        "bass": 0.5,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.4,
+        "energy": 0.38,
+        "section": "verse"
+      },
+      "t": 1784085504.32114
+    },
+    {
+      "sig": {
+        "bass": 0.9,
+        "mid": 0.5,
+        "treble": 0.3,
+        "beat": 0.6,
+        "energy": 0.6599999999999999,
+        "section": "verse"
+      },
+      "t": 1784085514.6251757
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085514.627298
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085514.6280682
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085514.6287527
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085514.6294966
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784085514.6303892
+    },
+    {
+      "sig": {
+        "bass": 0.5,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.4,
+        "energy": 0.38,
+        "section": "verse"
+      },
+      "t": 1784085514.63232
+    },
+    {
+      "sig": {
+        "bass": 0.9,
+        "mid": 0.5,
+        "treble": 0.3,
+        "beat": 0.6,
+        "energy": 0.6599999999999999,
+        "section": "verse"
+      },
+      "t": 1784087445.208061
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784087445.2120163
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784087445.2133157
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784087445.2145388
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784087445.2157102
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient"
+      },
+      "t": 1784087445.2176688
+    },
+    {
+      "sig": {
+        "bass": 0.5,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.4,
+        "energy": 0.38,
+        "section": "verse"
+      },
+      "t": 1784087445.2198308
+    },
+    {
+      "sig": {
+        "bass": 0.9,
+        "mid": 0.5,
+        "treble": 0.3,
+        "beat": 0.6,
+        "energy": 0.6599999999999999,
+        "section": "verse",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088689.5585718
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088689.5606706
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088689.5614407
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088689.5621552
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088689.5628762
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088689.5638475
+    },
+    {
+      "sig": {
+        "bass": 0.5,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.4,
+        "energy": 0.38,
+        "section": "verse",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088689.5657778
+    },
+    {
+      "sig": {
+        "bass": 0.9,
+        "mid": 0.5,
+        "treble": 0.3,
+        "beat": 0.6,
+        "energy": 0.6599999999999999,
+        "section": "verse",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088749.380878
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088749.3842254
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088749.385887
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088749.388162
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088749.3896618
+    },
+    {
+      "sig": {
+        "bass": 0.2,
+        "mid": 0.2,
+        "treble": 0.2,
+        "beat": 0.2,
+        "energy": 0.2,
+        "section": "ambient",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088749.391946
+    },
+    {
+      "sig": {
+        "bass": 0.5,
+        "mid": 0.3,
+        "treble": 0.2,
+        "beat": 0.4,
+        "energy": 0.38,
+        "section": "verse",
+        "mood": "calm",
+        "bpm": 0.0,
+        "danceability": 0.0,
+        "harmonic_complexity": 0.0,
+        "key": "C"
+      },
+      "t": 1784088749.3959038
+    }
+  ],
+  "notes": [
+    "cross-breed geometric x plasma -> 5e5326ee.1+ff07ddd9",
+    "cross-breed geometric x crystalline -> b223a2ef+4dbaddfd.28",
+    "cross-breed plasma x crystalline -> ea12ef9a+09d470a8",
+    "cross-breed organic x plasma -> e3cb0fb7+a175d165",
+    "cross-breed crystalline x fractal -> e03fb737.49+d52260e8",
+    "cross-breed organic x geometric -> a9c7ea74+fd5e065e",
+    "cross-breed crystalline x organic -> 39bc2da7+9805af97",
+    "cross-breed crystalline x organic -> c6d467ac+c5683e2a",
+    "cross-breed crystalline x organic -> c8e44f0d+0cf9b1bc"
+  ]
+}

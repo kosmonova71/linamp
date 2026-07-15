@@ -1,0 +1,17 @@
+[
+  {
+    "ts": 1783913296.80989,
+    "score": 2.5,
+    "genome": {
+      "modules": [
+        "noise",
+        "warp"
+      ],
+      "params": {
+        "feedback": 0.85
+      }
+    },
+    "parent": null,
+    "descendants": 0
+  }
+]

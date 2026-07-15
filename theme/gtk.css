@@ -1,0 +1,342 @@
+/* =========================
+   LinAmp GTK4 Theme — Tokyo Night
+   Modern Glassmorphic · 2026
+   ========================= */
+
+:root {
+    /* Base Colors */
+    --bg: #1a1b26;
+    --bg-alt: #1f2335;
+    --fg: #c0caf5;
+    --accent: #7dcfff;
+    --accent-2: #73daca;
+    --purple: #bb9af7;
+    --red: #f7768e;
+    
+    /* Glassmorphic */
+    --glass: rgba(26, 27, 38, 0.88);
+    --glass-light: rgba(26, 27, 38, 0.72);
+    --glass-border: rgba(187, 154, 247, 0.18);
+    --shadow: rgba(0, 0, 0, 0.45);
+}
+
+/* Base Window */
+window,
+.background {
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+window:backdrop {
+    background-color: var(--bg-alt);
+}
+
+/* ---- Header Bar ---- */
+headerbar {
+    background-color: var(--glass);
+    border-bottom: 1px solid var(--glass-border);
+    box-shadow: 0 1px 0 rgba(192, 202, 245, 0.06);
+    padding: 0 8px;
+}
+
+headerbar .title {
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    color: var(--fg);
+}
+
+/* ---- Buttons ---- */
+button {
+    background-color: rgba(192, 202, 245, 0.065);
+    color: var(--fg);
+    border: 1px solid var(--glass-border);
+    border-radius: 9999px;
+    padding: 7px 18px;
+    transition: all 0.25s cubic-bezier(0.4, 0.0, 0.2, 1);
+    box-shadow: 0 2px 8px var(--shadow),
+                inset 0 1px 0 rgba(255, 255, 255, 0.07);
+}
+
+button:hover {
+    background-color: rgba(122, 162, 247, 0.14);
+    border-color: rgba(187, 154, 247, 0.35);
+    box-shadow: 0 4px 14px var(--shadow),
+                inset 0 1px 0 rgba(192, 202, 245, 0.18);
+    transform: translateY(-1px);
+}
+
+button:active {
+    background-color: rgba(187, 154, 247, 0.24);
+    transform: translateY(0);
+    box-shadow: 0 1px 4px var(--shadow);
+}
+
+button:disabled {
+    opacity: 0.45;
+}
+
+/* Primary Action Button */
+button.suggested-action {
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    color: #1a1b26;
+    border: 1px solid rgba(125, 207, 255, 0.55);
+    box-shadow: 0 4px 15px rgba(125, 207, 255, 0.42);
+}
+
+button.suggested-action:hover {
+    background: linear-gradient(135deg, #9ed8ff, #8be0d4);
+    box-shadow: 0 6px 18px rgba(125, 207, 255, 0.55);
+}
+
+/* Circular & Icon Buttons */
+button.image-button,
+button.circular,
+.playback-button {
+    padding: 8px;
+    min-width: 48px;
+    min-height: 48px;
+    border-radius: 9999px;
+}
+
+/* ---- Entry / Search ---- */
+entry,
+.search-entry {
+    background-color: var(--glass-light);
+    border: 1px solid var(--glass-border);
+    border-radius: 9999px;
+    padding: 9px 18px;
+    transition: all 0.2s ease;
+}
+
+entry:focus,
+.search-entry:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3.5px rgba(125, 207, 255, 0.22);
+    background-color: rgba(26, 27, 38, 0.95);
+}
+
+/* ---- Lists & Rows ---- */
+listview,
+list {
+    background-color: transparent;
+}
+
+row {
+    padding: 10px 16px;
+    border-radius: 12px;
+    transition: all 0.22s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+row:hover {
+    background-color: rgba(192, 202, 245, 0.075);
+}
+
+row:selected,
+row:selected:hover {
+    background-color: rgba(125, 207, 255, 0.17);
+    box-shadow: inset 0 0 0 1.5px rgba(125, 207, 255, 0.35);
+}
+
+row.playing {
+    background-color: rgba(125, 207, 255, 0.11);
+    outline: 2px solid rgba(125, 207, 255, 0.45);
+    outline-offset: -3px;
+}
+
+/* ---- Notebook / Tabs ---- */
+notebook > header {
+    background-color: transparent;
+}
+
+notebook tab {
+    background-color: rgba(26, 27, 38, 0.65);
+    border: 1px solid var(--glass-border);
+    border-radius: 9999px;
+    padding: 8px 22px;
+    margin: 4px 3px;
+    transition: all 0.22s ease;
+}
+
+notebook tab:checked {
+    background-color: rgba(187, 154, 247, 0.19);
+    border-color: rgba(187, 154, 247, 0.5);
+    box-shadow: 0 4px 14px var(--shadow);
+}
+
+notebook > stack,
+notebook > stack > box {
+    min-width: 350px;
+    min-height: 250px;
+}
+
+notebook > stack > box.visualizer-widget {
+    min-width: 350px;
+    min-height: 250px;
+}
+
+/* ---- Sliders / Scale ---- */
+scale > trough {
+    background-color: rgba(192, 202, 245, 0.11);
+    border-radius: 9999px;
+    min-height: 6px;
+}
+
+scale > highlight {
+    background: linear-gradient(to right, var(--accent), var(--accent-2));
+    border-radius: 9999px;
+}
+
+scale > slider {
+    background-color: var(--fg);
+    border: 3.5px solid var(--accent);
+    box-shadow: 0 3px 12px rgba(125, 207, 255, 0.45);
+    min-width: 19px;
+    min-height: 19px;
+    border-radius: 9999px;
+}
+
+.seek-bar scale > trough {
+    min-height: 5px;
+}
+
+/* Button Helpers */
+.control-button { padding: 8px; }
+
+.icon-button {
+    padding: 4px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.active {
+    background-color: rgba(187, 154, 247, 0.35);
+    border-color: rgba(187, 154, 247, 0.7);
+    box-shadow: 0 0 12px rgba(187, 154, 247, 0.45);
+}
+
+/* ---- Cards & Visualizer ---- */
+.card {
+    background-color: rgba(26, 27, 38, 0.58);
+    border: 1px solid var(--glass-border);
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 8px 32px var(--shadow),
+                inset 0 1px 0 rgba(192, 202, 245, 0.08);
+}
+
+.visualizer-widget {
+    background-color: var(--bg);
+    background-image: linear-gradient(135deg, #1a1b26 0%, #24283b 48%, #1a1b26 100%);
+    border: 2px solid rgba(125, 207, 255, 0.35);
+    border-radius: 12px;
+    box-shadow: 0 10px 40px var(--shadow),
+                inset 0 0 40px rgba(125, 207, 255, 0.1);
+    min-width: 0;
+    min-height: 0;
+}
+
+.visualizer-widget glarea,
+.visualizer-glarea {
+    background: transparent;
+}
+
+/* ---- Cover Art ---- */
+.player-cover {
+    border-radius: 16px;
+    box-shadow: 0 16px 45px var(--shadow),
+                inset 0 3px 0 rgba(192, 202, 245, 0.15);
+}
+
+/* ---- Popover / Menu ---- */
+popover,
+menu,
+.menu {
+    background-color: rgba(26, 27, 38, 0.95);
+    border: 1px solid rgba(187, 154, 247, 0.25);
+    border-radius: 14px;
+    box-shadow: 0 8px 28px var(--shadow);
+}
+
+popover > arrow {
+    background-color: rgba(26, 27, 38, 0.95);
+}
+
+/* ---- Scrollbars ---- */
+scrollbar {
+    background-color: transparent;
+}
+
+scrollbar slider {
+    background-color: rgba(187, 154, 247, 0.35);
+    border-radius: 9999px;
+    min-width: 6px;
+    min-height: 6px;
+}
+
+scrollbar slider:hover {
+    background-color: rgba(187, 154, 247, 0.55);
+}
+
+/* ---- Tooltips ---- */
+tooltip {
+    background-color: rgba(26, 27, 38, 0.96);
+    border: 1px solid rgba(187, 154, 247, 0.3);
+    border-radius: 8px;
+    color: var(--fg);
+}
+
+/* ---- Reset / Danger ---- */
+.reset-button {
+    background-color: rgba(247, 118, 142, 0.16);
+    border-color: rgba(247, 118, 142, 0.45);
+    color: var(--red);
+}
+
+.reset-button:hover {
+    background-color: rgba(247, 118, 142, 0.28);
+}
+
+/* Helpers */
+.dim-label { color: rgba(192, 202, 245, 0.55); }
+
+.track-label {
+    font-size: 1.18em;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+.time-label {
+    font-size: 0.87em;
+    color: rgba(192, 202, 245, 0.68);
+}
+
+/* Cover Art Variants */
+.cover-square { border-radius: 16px; }
+.cover-circle { border-radius: 50%; }
+.cover-rounded { border-radius: 24px; }
+.cover-transition { transition: all 0.3s ease; }
+
+/* Equalizer & Playlist Tabs */
+.eq-tab, .playlist-tab { padding: 16px; }
+
+.section-header {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--fg);
+    margin-bottom: 8px;
+}
+
+.playlist-scrolled {
+    border-radius: 12px;
+    background-color: rgba(26, 27, 38, 0.4);
+}
+
+.playlist-current {
+    font-weight: 700;
+    background-color: rgba(0, 180, 255, 0.15);
+    color: #00b4ff;
+}
+
+/* Additional common GTK4 fixes */
+button.flat { background: transparent; border: none; }
+button.flat:hover { background-color: rgba(192, 202, 245, 0.08); }

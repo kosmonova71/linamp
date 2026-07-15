@@ -1,0 +1,659 @@
+{
+  "cartunemask1.png": {
+    "source_texture": "cartunemask1",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.3
+  },
+  "logo.png": {
+    "source_texture": "logo",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.1
+  },
+  "Image415.jpg": {
+    "source_texture": "Image415",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.2
+  },
+  "OIbeans1.jpg": {
+    "source_texture": "OIbeans1",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.2
+  },
+  "OIcafewall.jpg": {
+    "source_texture": "OIcafewall",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.25
+  },
+  "OIchess1..jpg": {
+    "source_texture": "OIchess1.",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "OIcurved1.jpg": {
+    "source_texture": "OIcurved1",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "OIcurved2.jpg": {
+    "source_texture": "OIcurved2",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "OIcurved3.jpg": {
+    "source_texture": "OIcurved3",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "OIcurved4.jpg": {
+    "source_texture": "OIcurved4",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "OIkametanjo.jpg": {
+    "source_texture": "OIkametanjo",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.275
+  },
+  "OIparallel1.jpg": {
+    "source_texture": "OIparallel1",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.275
+  },
+  "OIpoggendo.jpg": {
+    "source_texture": "OIpoggendo",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.25
+  },
+  "OctagonalRoach.jpg": {
+    "source_texture": "OctagonalRoach",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.35
+  },
+  "PEcubes1.jpg": {
+    "source_texture": "PEcubes1",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.2
+  },
+  "PEcubesBW.jpg": {
+    "source_texture": "PEcubesBW",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "PElosang1.jpg": {
+    "source_texture": "PElosang1",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "PEpyramid1.jpg": {
+    "source_texture": "PEpyramid1",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.25
+  },
+  "PEsticks1.jpg": {
+    "source_texture": "PEsticks1",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "PEsticks2.jpg": {
+    "source_texture": "PEsticks2",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "VITRIOL.jpg": {
+    "source_texture": "VITRIOL",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.175
+  },
+  "bw3.jpg": {
+    "source_texture": "bw3",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.075
+  },
+  "cartunemask1.jpg": {
+    "source_texture": "cartunemask1",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.3
+  },
+  "cells.jpg": {
+    "source_texture": "cells",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.125
+  },
+  "clouds.jpg": {
+    "source_texture": "clouds",
+    "material_type": "cloudy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.15
+  },
+  "clouds2.jpg": {
+    "source_texture": "clouds2",
+    "material_type": "cloudy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.175
+  },
+  "colors.jpg": {
+    "source_texture": "colors",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.15
+  },
+  "colors7.jpg": {
+    "source_texture": "colors7",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.175
+  },
+  "devboxb.jpg": {
+    "source_texture": "devboxb",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.175
+  },
+  "eyeball.jpg": {
+    "source_texture": "eyeball",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.175
+  },
+  "facade01.jpg": {
+    "source_texture": "facade01",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.2
+  },
+  "fire_alpha.jpg": {
+    "source_texture": "fire_alpha",
+    "material_type": "energy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.25
+  },
+  "fire_alpha3.jpg": {
+    "source_texture": "fire_alpha3",
+    "material_type": "energy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.275
+  },
+  "fire_alpha4.jpg": {
+    "source_texture": "fire_alpha4",
+    "material_type": "energy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.275
+  },
+  "fire_alpha5.jpg": {
+    "source_texture": "fire_alpha5",
+    "material_type": "energy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.275
+  },
+  "fire_alpha8.jpg": {
+    "source_texture": "fire_alpha8",
+    "material_type": "energy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.275
+  },
+  "fire_base.jpg": {
+    "source_texture": "fire_base",
+    "material_type": "energy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "fire_dis4.jpg": {
+    "source_texture": "fire_dis4",
+    "material_type": "energy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "fire_dis5.jpg": {
+    "source_texture": "fire_dis5",
+    "material_type": "energy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "grad.jpg": {
+    "source_texture": "grad",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.1
+  },
+  "grad16.jpg": {
+    "source_texture": "grad16",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.15
+  },
+  "grad2.jpg": {
+    "source_texture": "grad2",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.125
+  },
+  "heart.jpg": {
+    "source_texture": "heart",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.125
+  },
+  "kaite.jpg": {
+    "source_texture": "kaite",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.125
+  },
+  "lichen.jpg": {
+    "source_texture": "lichen",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.15
+  },
+  "manyfish.jpg": {
+    "source_texture": "manyfish",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.2
+  },
+  "moss1.jpg": {
+    "source_texture": "moss1",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.125
+  },
+  "onefish.jpg": {
+    "source_texture": "onefish",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.175
+  },
+  "pano_earth.jpg": {
+    "source_texture": "pano_earth",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.25
+  },
+  "pano_earth_clouds.jpg": {
+    "source_texture": "pano_earth_clouds",
+    "material_type": "cloudy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.425
+  },
+  "pano_earth_night.jpg": {
+    "source_texture": "pano_earth_night",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.4
+  },
+  "pano_earth_spec.jpg": {
+    "source_texture": "pano_earth_spec",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.375
+  },
+  "pano_starsmap.jpg": {
+    "source_texture": "pano_starsmap",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.325
+  },
+  "paper.jpg": {
+    "source_texture": "paper",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.125
+  },
+  "prayerwheel.jpg": {
+    "source_texture": "prayerwheel",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.275
+  },
+  "ruin.jpg": {
+    "source_texture": "ruin",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.1
+  },
+  "seaweed.jpg": {
+    "source_texture": "seaweed",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.175
+  },
+  "seaweed_ORIGINAL.jpg": {
+    "source_texture": "seaweed_ORIGINAL",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.4
+  },
+  "sin_lookup.jpg": {
+    "source_texture": "sin_lookup",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.25
+  },
+  "sinl.jpg": {
+    "source_texture": "sinl",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.1
+  },
+  "sky.jpg": {
+    "source_texture": "sky",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.075
+  },
+  "smalltiled_colors3.jpg": {
+    "source_texture": "smalltiled_colors3",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.45
+  },
+  "smalltiled_electric_nebula.jpg": {
+    "source_texture": "smalltiled_electric_nebula",
+    "material_type": "energy",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.65
+  },
+  "smalltiled_ensign_meat.jpg": {
+    "source_texture": "smalltiled_ensign_meat",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.55
+  },
+  "smalltiled_lizard_scales.jpg": {
+    "source_texture": "smalltiled_lizard_scales",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.6
+  },
+  "sunrise.jpg": {
+    "source_texture": "sunrise",
+    "material_type": "noise",
+    "colour_dominance": "yellow",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.175
+  },
+  "videoalpha.jpg": {
+    "source_texture": "videoalpha",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.25
+  },
+  "wrenches.jpg": {
+    "source_texture": "wrenches",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.2
+  },
+  "inspiration_.jpg": {
+    "source_texture": "inspiration_",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.3
+  },
+  "mcode1.jpg": {
+    "source_texture": "mcode1",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.15
+  },
+  "nightingale one.jpg": {
+    "source_texture": "nightingale one",
+    "material_type": "noise",
+    "colour_dominance": "neutral",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.375
+  },
+  "sunset01_.jpg": {
+    "source_texture": "sunset01_",
+    "material_type": "noise",
+    "colour_dominance": "yellow",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  },
+  "sunset03_.jpg": {
+    "source_texture": "sunset03_",
+    "material_type": "noise",
+    "colour_dominance": "yellow",
+    "pattern_frequency": 0.5,
+    "regularity": 0.5,
+    "energy": 0.5,
+    "usefulness": 0.225
+  }
+}
