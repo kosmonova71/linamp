@@ -1922,8 +1922,8 @@ class ExtinctionArchive:
         self.revival_cooldown -= dt
         if self.revival_cooldown > 0.0 or not self.dormant:
             return None
-        self.revival_cooldown = 60.0
-        if random.random() < 0.5:
+        self.revival_cooldown = 20.0
+        if random.random() < 0.8:
             return random.choice(list(self.dormant.keys()))
         return None
 
@@ -1973,19 +1973,12 @@ class SpatialOrganism:
     def perceive(self, audio: Dict[str, float], field: ResourceField,
                  signals: List[Signal], neighbours: int) -> List[float]:
         s = self.senses
-        r = field.sample(self.preferred, self.pos[0], self.pos[1])
         vals = {
             "bass": float(audio.get("bass", 0.0)) * s.bass_sensitivity,
             "treb": float(audio.get("treb", 0.0)) * s.treble_sensitivity,
             "harm": float(audio.get("mid", 0.0)) * s.harmony_sensitivity,
             "mot": float(audio.get("beat", 0.0)) * s.motion_sensitivity,
         }
-        nutrient = {
-            "bass": field.sample("bass", self.pos[0], self.pos[1]),
-            "treb": field.sample("treb", self.pos[0], self.pos[1]),
-            "harm": field.sample("harm", self.pos[0], self.pos[1]),
-            "mot": field.sample("mot", self.pos[0], self.pos[1]),
-        }[self.preferred]
         return [
             vals["bass"], vals["treb"],
             max(0.0, min(1.0, self.energy / 3.0)),
@@ -2012,6 +2005,9 @@ class SpatialOrganism:
         self._pay_costs(dt, eco)
         self._act(dt, eco, audio, grow_a, repro_a, mutate_a, shader_a, intake)
         self._emit_signal(eco, audio, intake)
+
+        # Carrying capacity: energy cannot grow without bound (spec 56).
+        self.energy = min(eco.max_energy * 1.15, self.energy)
 
         # rolling fitness
         inst = (max(0.0, min(1.0, self.energy / 3.0)) * 0.5
@@ -2098,12 +2094,12 @@ class SpatialOrganism:
 
     def _consume(self, field: ResourceField, dt: float) -> float:
         sens = self.senses
-        eaten = field.consume(self.pos[0], self.pos[1], 0.3)
+        eaten = field.consume(self.pos[0], self.pos[1], 0.2)
         gain = (eaten["bass"] * sens.bass_sensitivity
                 + eaten["treb"] * sens.treble_sensitivity
                 + eaten["harm"] * sens.harmony_sensitivity
                 + eaten["mot"] * sens.motion_sensitivity)
-        gain = min(1.5, gain * 1.2 * dt * 8.0)
+        gain = min(1.5, gain * 1.5 * dt * 8.0)
         self.energy += gain
         return gain
 
@@ -2115,14 +2111,17 @@ class SpatialOrganism:
         posts = getattr(g, "post", None) or []
         base += 0.08 * len(posts)
         if eco.config.enable_organs:
-            base += self.organs.energy_cost()
+            base += 0.5 * self.organs.energy_cost()
         base += 0.12 * self.complexity_level
         return base
 
     def _pay_costs(self, dt: float, eco) -> None:
         if not eco.config.enable_energy_economy:
             return
-        cost = (0.02 + self._visual_cost(eco)) * dt
+        cost = (0.012 + self._visual_cost(eco)) * dt
+        # Luxury metabolism: high energy is expensive to maintain (spec 56),
+        # which bounds the population's energy and keeps GPU-heavy organisms in check.
+        cost += 0.08 * max(0.0, self.energy - 1.0) * dt
         self.energy -= cost
 
     def _act(self, dt, eco, audio, grow_a, repro_a, mutate_a, shader_a, intake) -> None:
@@ -2152,11 +2151,12 @@ class SpatialOrganism:
             self.energy -= 0.3
 
         # Reproduction (spec 46): spawn a child when thriving.
-        if (self.energy > 1.6
-                and (not eco.config.enable_brain or repro_a > 0.3)
-                and random.random() < 0.04):
+        if (self.energy > 1.3
+                and (not eco.config.enable_brain or repro_a > 0.2)
+                and random.random() < 0.10):
             child = self.clone_child()
             eco.spawn_child(child)
+            self.energy -= 0.4
 
     def _emit_signal(self, eco, audio, intake) -> None:
         if not eco.config.enable_signals or self.signal_cooldown > 0.0:
@@ -2199,7 +2199,7 @@ class SpatialEcosystem:
 
         for _ in range(config.spatial_population_size):
             sid = random.randrange(n_species)
-            org = SpatialOrganism(ModularGenome(), sid, energy=random.uniform(0.8, 1.4))
+            org = SpatialOrganism(ModularGenome(), sid, energy=random.uniform(1.0, 1.6))
             self.organisms.append(org)
 
     def _new_species(self, diet: Optional[set] = None) -> int:
@@ -2216,7 +2216,7 @@ class SpatialEcosystem:
         if n <= 1:
             return set()
         prey = (i + 1) % n
-        return {prey} if random.random() < 0.6 else set()
+        return {prey} if random.random() < 0.35 else set()
 
     def spawn_child(self, child: SpatialOrganism) -> None:
         self._spawned_this_step.append(child)
@@ -2266,8 +2266,9 @@ class SpatialEcosystem:
 
         self._extinction_check()
         if self.config.enable_extinction:
-            self._maybe_revive(dt)
-        if random.random() < 0.001:
+            alive_count = sum(1 for o in self.organisms if o.alive)
+            self._maybe_revive(dt, force=alive_count < 4)
+        if random.random() < 0.004:
             self._maybe_speciate()
         self._mutate_diets()
 
@@ -2287,8 +2288,8 @@ class SpatialEcosystem:
                 if prey.species not in diet.diet:
                     continue
                 d = math.hypot(prey.pos[0] - pred.pos[0], prey.pos[1] - pred.pos[1])
-                if d < pred.radius + prey.radius + 0.02:
-                    eat = min(pred.energy * 0.05 + 0.1, prey.energy)
+                if d < pred.radius + prey.radius + 0.02 and pred.energy < 2.2:
+                    eat = min(0.06, prey.energy * 0.25)
                     pred.energy = min(self.max_energy, pred.energy + eat * 0.8)
                     prey.energy -= eat
                     if prey.energy <= 0.0:
@@ -2304,8 +2305,16 @@ class SpatialEcosystem:
                     self.archive.archive(self.species[sid], best.genome.to_dict())
                 del self.species[sid]
 
-    def _maybe_revive(self, dt: float) -> None:
-        sid = self.archive.maybe_revive(dt)
+    def _maybe_revive(self, dt: float, force: bool = False) -> None:
+        if force:
+            # World is too empty: revive a dormant species immediately (spec 59 recovery).
+            if self.archive.dormant:
+                sid = random.choice(list(self.archive.dormant.keys()))
+                self.archive.revival_cooldown = 20.0
+            else:
+                sid = None
+        else:
+            sid = self.archive.maybe_revive(dt)
         if sid is None or sid in self.species:
             return
         rec = self.archive.dormant[sid]
@@ -3221,7 +3230,7 @@ void main(){
         min_dim = float(min(W, H))
         raw = []
         for o in orgs:
-            en = max(0.0, min(1.0, o.energy / (self.ecosystem.max_energy if self.ecosystem else 3.0)))
+            en = max(0.0, min(1.0, o.energy / 3.0))
             cr = o.radius * (0.4 + 0.6 * en)
             cx = o.pos[0] * W
             cy = o.pos[1] * H
